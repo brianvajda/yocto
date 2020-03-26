@@ -1,6 +1,6 @@
 DESCRIPTION = "Custom Kernel Modifications for QorIQ kernel"
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/files"
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 # To change kernel config
 # bitbake -c menuconfigconfig virtual/kernel
